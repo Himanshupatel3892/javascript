@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+    margin: 0;
+    text-align: center;
+    padding: 30px;
+    background-image: url(image/kingfirser2.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.timer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.sub_timer {
+    padding: 10px;
+    color: white;
+}
+
+.digit {
+    font-size: 40px;
+    margin: 0;
+}
+
+#inputArea {
+    margin-top: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #333;
+}

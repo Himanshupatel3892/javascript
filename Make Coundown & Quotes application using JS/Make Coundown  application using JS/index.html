@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Timer</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <h1>WE ARE COMING SOON</h1>
+        <p>Enter your own date and time for countdown</p>
+
+        <!-- USER INPUT AREA -->
+        <div id="inputArea">
+            <h2>Set Your Timer</h2>
+
+            <input type="date" id="userDate">
+            <input type="time" id="userTime">
+
+            <br>
+            <button id="startBtn">Start Timer</button>
+        </div>
+
+        <!-- TIMER DISPLAY -->
+        <div class="timer">
+            <div class="sub_timer">
+                <h1 id="day" class="digit">00</h1>
+                <p>Days</p>
+            </div>
+            <div class="sub_timer">
+                <h1 id="hour" class="digit">00</h1>
+                <p>Hours</p>
+            </div>
+            <div class="sub_timer">
+                <h1 id="min" class="digit">00</h1>
+                <p>Minutes</p>
+            </div>
+            <div class="sub_timer">
+                <h1 id="sec" class="digit">00</h1>
+                <p>Seconds</p>
+            </div>
+        </div>
+
+    </div>
+
+<script src="countdown.js"></script>
+</body>
+</html>
