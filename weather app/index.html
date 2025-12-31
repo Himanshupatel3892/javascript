@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Premium Weather App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="weather-app glass">
+    <div class="top-bar">
+      <h2>🌤 Weather App</h2>
+      <button id="modeToggle">🌙</button>
+    </div>
+
+    <div class="search-box">
+      <input type="text" id="city" placeholder="Enter city name">
+      <button id="btn">Search</button>
+    </div>
+
+
+
+    <div class="weather-info" id="weatherInfo">
+      <h3 id="cityName"></h3>
+      <img id="weatherIcon" alt="">
+      <p id="temperature"></p>
+      <p id="timezone"></p>
+
+      <div class="extra">
+        <span id="humidity"></span>
+        <span id="wind"></span>
+      </div>
+    </div>
+  </div>
+
+  <script src="weather.js"></script>
+</body>
+</html>
